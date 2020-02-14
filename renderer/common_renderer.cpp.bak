@@ -1,0 +1,16 @@
+// File   common_renderer.cpp
+// Author lidongming
+// Date   2018-09-11 02:21:08
+// Brief
+
+#include "feature_engine/renderer/common_renderer.h"
+
+namespace feature_engine {
+
+// Renderer one sample
+Status CommonRenderer::Renderer(const std::vector<int32_t>& feature_ids,
+                                google::protobuf::Message* output) {
+  return Status::OK();
+}
+
+}  // namespace feature_engine

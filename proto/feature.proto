@@ -1,0 +1,1460 @@
+syntax = "proto3";
+package feature_proto;
+
+message ListDouble {
+  repeated double k = 1;
+}
+
+message ListFloat {
+  repeated float k = 1;
+}
+
+message ListInt32 {
+  repeated int32 k = 1;
+}
+
+message ListInt64 {
+  repeated int64 k = 1;
+}
+
+message ListUint32 {
+  repeated uint32 k = 1;
+}
+
+message ListUint64 {
+  repeated uint64 k = 1;
+}
+
+message ListSint32 {
+  repeated sint32 k = 1;
+}
+
+message ListSint64 {
+  repeated sint64 k = 1;
+}
+
+message ListFixed32 {
+  repeated fixed32 k = 1;
+}
+
+message ListFixed64 {
+  repeated fixed64 k = 1;
+}
+
+message ListSfixed32 {
+  repeated sfixed32 k = 1;
+}
+
+message ListSfixed64 {
+  repeated sfixed64 k = 1;
+}
+
+message ListBool {
+  repeated bool k = 1;
+}
+
+message ListString {
+  repeated string k = 1;
+}
+
+message ListBytes {
+  repeated bytes k = 1;
+}
+
+message ListStringDouble {
+  repeated string k = 1;
+  repeated double w = 2;
+}
+
+message ListStringFloat {
+  repeated string k = 1;
+  repeated float w = 2;
+}
+
+message ListStringInt32 {
+  repeated string k = 1;
+  repeated int32 w = 2;
+}
+
+message ListStringInt64 {
+  repeated string k = 1;
+  repeated int64 w = 2;
+}
+
+message ListStringUint32 {
+  repeated string k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListStringUint64 {
+  repeated string k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListStringSint32 {
+  repeated string k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListStringSint64 {
+  repeated string k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListStringFixed32 {
+  repeated string k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListStringFixed64 {
+  repeated string k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListStringSfixed32 {
+  repeated string k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListStringSfixed64 {
+  repeated string k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListStringBool {
+  repeated string k = 1;
+  repeated bool w = 2;
+}
+
+message ListStringString {
+  repeated string k = 1;
+  repeated string w = 2;
+}
+
+message ListStringBytes {
+  repeated string k = 1;
+  repeated bytes w = 2;
+}
+
+message ListBytesDouble {
+  repeated bytes k = 1;
+  repeated double w = 2;
+}
+
+message ListBytesFloat {
+  repeated bytes k = 1;
+  repeated float w = 2;
+}
+
+message ListBytesInt32 {
+  repeated bytes k = 1;
+  repeated int32 w = 2;
+}
+
+message ListBytesInt64 {
+  repeated bytes k = 1;
+  repeated int64 w = 2;
+}
+
+message ListBytesUint32 {
+  repeated bytes k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListBytesUint64 {
+  repeated bytes k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListBytesSint32 {
+  repeated bytes k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListBytesSint64 {
+  repeated bytes k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListBytesFixed32 {
+  repeated bytes k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListBytesFixed64 {
+  repeated bytes k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListBytesSfixed32 {
+  repeated bytes k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListBytesSfixed64 {
+  repeated bytes k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListBytesBool {
+  repeated bytes k = 1;
+  repeated bool w = 2;
+}
+
+message ListBytesString {
+  repeated bytes k = 1;
+  repeated string w = 2;
+}
+
+message ListBytesBytes {
+  repeated bytes k = 1;
+  repeated bytes w = 2;
+}
+
+message ListInt32Double {
+  repeated int32 k = 1;
+  repeated double w = 2;
+}
+
+message ListInt32Float {
+  repeated int32 k = 1;
+  repeated float w = 2;
+}
+
+message ListInt32Int32 {
+  repeated int32 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListInt32Int64 {
+  repeated int32 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListInt32Uint32 {
+  repeated int32 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListInt32Uint64 {
+  repeated int32 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListInt32Sint32 {
+  repeated int32 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListInt32Sint64 {
+  repeated int32 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListInt32Fixed32 {
+  repeated int32 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListInt32Fixed64 {
+  repeated int32 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListInt32Sfixed32 {
+  repeated int32 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListInt32Sfixed64 {
+  repeated int32 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListInt32Bool {
+  repeated int32 k = 1;
+  repeated bool w = 2;
+}
+
+message ListInt32String {
+  repeated int32 k = 1;
+  repeated string w = 2;
+}
+
+message ListInt32Bytes {
+  repeated int32 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListInt64Double {
+  repeated int64 k = 1;
+  repeated double w = 2;
+}
+
+message ListInt64Float {
+  repeated int64 k = 1;
+  repeated float w = 2;
+}
+
+message ListInt64Int32 {
+  repeated int64 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListInt64Int64 {
+  repeated int64 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListInt64Uint32 {
+  repeated int64 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListInt64Uint64 {
+  repeated int64 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListInt64Sint32 {
+  repeated int64 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListInt64Sint64 {
+  repeated int64 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListInt64Fixed32 {
+  repeated int64 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListInt64Fixed64 {
+  repeated int64 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListInt64Sfixed32 {
+  repeated int64 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListInt64Sfixed64 {
+  repeated int64 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListInt64Bool {
+  repeated int64 k = 1;
+  repeated bool w = 2;
+}
+
+message ListInt64String {
+  repeated int64 k = 1;
+  repeated string w = 2;
+}
+
+message ListInt64Bytes {
+  repeated int64 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListUint32Double {
+  repeated uint32 k = 1;
+  repeated double w = 2;
+}
+
+message ListUint32Float {
+  repeated uint32 k = 1;
+  repeated float w = 2;
+}
+
+message ListUint32Int32 {
+  repeated uint32 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListUint32Int64 {
+  repeated uint32 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListUint32Uint32 {
+  repeated uint32 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListUint32Uint64 {
+  repeated uint32 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListUint32Sint32 {
+  repeated uint32 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListUint32Sint64 {
+  repeated uint32 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListUint32Fixed32 {
+  repeated uint32 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListUint32Fixed64 {
+  repeated uint32 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListUint32Sfixed32 {
+  repeated uint32 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListUint32Sfixed64 {
+  repeated uint32 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListUint32Bool {
+  repeated uint32 k = 1;
+  repeated bool w = 2;
+}
+
+message ListUint32String {
+  repeated uint32 k = 1;
+  repeated string w = 2;
+}
+
+message ListUint32Bytes {
+  repeated uint32 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListUint64Double {
+  repeated uint64 k = 1;
+  repeated double w = 2;
+}
+
+message ListUint64Float {
+  repeated uint64 k = 1;
+  repeated float w = 2;
+}
+
+message ListUint64Int32 {
+  repeated uint64 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListUint64Int64 {
+  repeated uint64 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListUint64Uint32 {
+  repeated uint64 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListUint64Uint64 {
+  repeated uint64 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListUint64Sint32 {
+  repeated uint64 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListUint64Sint64 {
+  repeated uint64 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListUint64Fixed32 {
+  repeated uint64 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListUint64Fixed64 {
+  repeated uint64 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListUint64Sfixed32 {
+  repeated uint64 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListUint64Sfixed64 {
+  repeated uint64 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListUint64Bool {
+  repeated uint64 k = 1;
+  repeated bool w = 2;
+}
+
+message ListUint64String {
+  repeated uint64 k = 1;
+  repeated string w = 2;
+}
+
+message ListUint64Bytes {
+  repeated uint64 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListSint32Double {
+  repeated sint32 k = 1;
+  repeated double w = 2;
+}
+
+message ListSint32Float {
+  repeated sint32 k = 1;
+  repeated float w = 2;
+}
+
+message ListSint32Int32 {
+  repeated sint32 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListSint32Int64 {
+  repeated sint32 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListSint32Uint32 {
+  repeated sint32 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListSint32Uint64 {
+  repeated sint32 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListSint32Sint32 {
+  repeated sint32 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListSint32Sint64 {
+  repeated sint32 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListSint32Fixed32 {
+  repeated sint32 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListSint32Fixed64 {
+  repeated sint32 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListSint32Sfixed32 {
+  repeated sint32 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListSint32Sfixed64 {
+  repeated sint32 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListSint32Bool {
+  repeated sint32 k = 1;
+  repeated bool w = 2;
+}
+
+message ListSint32String {
+  repeated sint32 k = 1;
+  repeated string w = 2;
+}
+
+message ListSint32Bytes {
+  repeated sint32 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListSint64Double {
+  repeated sint64 k = 1;
+  repeated double w = 2;
+}
+
+message ListSint64Float {
+  repeated sint64 k = 1;
+  repeated float w = 2;
+}
+
+message ListSint64Int32 {
+  repeated sint64 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListSint64Int64 {
+  repeated sint64 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListSint64Uint32 {
+  repeated sint64 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListSint64Uint64 {
+  repeated sint64 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListSint64Sint32 {
+  repeated sint64 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListSint64Sint64 {
+  repeated sint64 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListSint64Fixed32 {
+  repeated sint64 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListSint64Fixed64 {
+  repeated sint64 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListSint64Sfixed32 {
+  repeated sint64 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListSint64Sfixed64 {
+  repeated sint64 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListSint64Bool {
+  repeated sint64 k = 1;
+  repeated bool w = 2;
+}
+
+message ListSint64String {
+  repeated sint64 k = 1;
+  repeated string w = 2;
+}
+
+message ListSint64Bytes {
+  repeated sint64 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListFixed32Double {
+  repeated fixed32 k = 1;
+  repeated double w = 2;
+}
+
+message ListFixed32Float {
+  repeated fixed32 k = 1;
+  repeated float w = 2;
+}
+
+message ListFixed32Int32 {
+  repeated fixed32 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListFixed32Int64 {
+  repeated fixed32 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListFixed32Uint32 {
+  repeated fixed32 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListFixed32Uint64 {
+  repeated fixed32 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListFixed32Sint32 {
+  repeated fixed32 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListFixed32Sint64 {
+  repeated fixed32 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListFixed32Fixed32 {
+  repeated fixed32 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListFixed32Fixed64 {
+  repeated fixed32 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListFixed32Sfixed32 {
+  repeated fixed32 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListFixed32Sfixed64 {
+  repeated fixed32 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListFixed32Bool {
+  repeated fixed32 k = 1;
+  repeated bool w = 2;
+}
+
+message ListFixed32String {
+  repeated fixed32 k = 1;
+  repeated string w = 2;
+}
+
+message ListFixed32Bytes {
+  repeated fixed32 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListFixed64Double {
+  repeated fixed64 k = 1;
+  repeated double w = 2;
+}
+
+message ListFixed64Float {
+  repeated fixed64 k = 1;
+  repeated float w = 2;
+}
+
+message ListFixed64Int32 {
+  repeated fixed64 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListFixed64Int64 {
+  repeated fixed64 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListFixed64Uint32 {
+  repeated fixed64 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListFixed64Uint64 {
+  repeated fixed64 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListFixed64Sint32 {
+  repeated fixed64 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListFixed64Sint64 {
+  repeated fixed64 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListFixed64Fixed32 {
+  repeated fixed64 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListFixed64Fixed64 {
+  repeated fixed64 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListFixed64Sfixed32 {
+  repeated fixed64 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListFixed64Sfixed64 {
+  repeated fixed64 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListFixed64Bool {
+  repeated fixed64 k = 1;
+  repeated bool w = 2;
+}
+
+message ListFixed64String {
+  repeated fixed64 k = 1;
+  repeated string w = 2;
+}
+
+message ListFixed64Bytes {
+  repeated fixed64 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListSfixed32Double {
+  repeated sfixed32 k = 1;
+  repeated double w = 2;
+}
+
+message ListSfixed32Float {
+  repeated sfixed32 k = 1;
+  repeated float w = 2;
+}
+
+message ListSfixed32Int32 {
+  repeated sfixed32 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListSfixed32Int64 {
+  repeated sfixed32 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListSfixed32Uint32 {
+  repeated sfixed32 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListSfixed32Uint64 {
+  repeated sfixed32 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListSfixed32Sint32 {
+  repeated sfixed32 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListSfixed32Sint64 {
+  repeated sfixed32 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListSfixed32Fixed32 {
+  repeated sfixed32 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListSfixed32Fixed64 {
+  repeated sfixed32 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListSfixed32Sfixed32 {
+  repeated sfixed32 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListSfixed32Sfixed64 {
+  repeated sfixed32 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListSfixed32Bool {
+  repeated sfixed32 k = 1;
+  repeated bool w = 2;
+}
+
+message ListSfixed32String {
+  repeated sfixed32 k = 1;
+  repeated string w = 2;
+}
+
+message ListSfixed32Bytes {
+  repeated sfixed32 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListSfixed64Double {
+  repeated sfixed64 k = 1;
+  repeated double w = 2;
+}
+
+message ListSfixed64Float {
+  repeated sfixed64 k = 1;
+  repeated float w = 2;
+}
+
+message ListSfixed64Int32 {
+  repeated sfixed64 k = 1;
+  repeated int32 w = 2;
+}
+
+message ListSfixed64Int64 {
+  repeated sfixed64 k = 1;
+  repeated int64 w = 2;
+}
+
+message ListSfixed64Uint32 {
+  repeated sfixed64 k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListSfixed64Uint64 {
+  repeated sfixed64 k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListSfixed64Sint32 {
+  repeated sfixed64 k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListSfixed64Sint64 {
+  repeated sfixed64 k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListSfixed64Fixed32 {
+  repeated sfixed64 k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListSfixed64Fixed64 {
+  repeated sfixed64 k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListSfixed64Sfixed32 {
+  repeated sfixed64 k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListSfixed64Sfixed64 {
+  repeated sfixed64 k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListSfixed64Bool {
+  repeated sfixed64 k = 1;
+  repeated bool w = 2;
+}
+
+message ListSfixed64String {
+  repeated sfixed64 k = 1;
+  repeated string w = 2;
+}
+
+message ListSfixed64Bytes {
+  repeated sfixed64 k = 1;
+  repeated bytes w = 2;
+}
+
+message ListDoubleDouble {
+  repeated double k = 1;
+  repeated double w = 2;
+}
+
+message ListDoubleFloat {
+  repeated double k = 1;
+  repeated float w = 2;
+}
+
+message ListDoubleInt32 {
+  repeated double k = 1;
+  repeated int32 w = 2;
+}
+
+message ListDoubleInt64 {
+  repeated double k = 1;
+  repeated int64 w = 2;
+}
+
+message ListDoubleUint32 {
+  repeated double k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListDoubleUint64 {
+  repeated double k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListDoubleSint32 {
+  repeated double k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListDoubleSint64 {
+  repeated double k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListDoubleFixed32 {
+  repeated double k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListDoubleFixed64 {
+  repeated double k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListDoubleSfixed32 {
+  repeated double k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListDoubleSfixed64 {
+  repeated double k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListDoubleBool {
+  repeated double k = 1;
+  repeated bool w = 2;
+}
+
+message ListDoubleString {
+  repeated double k = 1;
+  repeated string w = 2;
+}
+
+message ListDoubleBytes {
+  repeated double k = 1;
+  repeated bytes w = 2;
+}
+
+message ListFloatDouble {
+  repeated float k = 1;
+  repeated double w = 2;
+}
+
+message ListFloatFloat {
+  repeated float k = 1;
+  repeated float w = 2;
+}
+
+message ListFloatInt32 {
+  repeated float k = 1;
+  repeated int32 w = 2;
+}
+
+message ListFloatInt64 {
+  repeated float k = 1;
+  repeated int64 w = 2;
+}
+
+message ListFloatUint32 {
+  repeated float k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListFloatUint64 {
+  repeated float k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListFloatSint32 {
+  repeated float k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListFloatSint64 {
+  repeated float k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListFloatFixed32 {
+  repeated float k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListFloatFixed64 {
+  repeated float k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListFloatSfixed32 {
+  repeated float k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListFloatSfixed64 {
+  repeated float k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListFloatBool {
+  repeated float k = 1;
+  repeated bool w = 2;
+}
+
+message ListFloatString {
+  repeated float k = 1;
+  repeated string w = 2;
+}
+
+message ListFloatBytes {
+  repeated float k = 1;
+  repeated bytes w = 2;
+}
+
+message ListBoolDouble {
+  repeated bool k = 1;
+  repeated double w = 2;
+}
+
+message ListBoolFloat {
+  repeated bool k = 1;
+  repeated float w = 2;
+}
+
+message ListBoolInt32 {
+  repeated bool k = 1;
+  repeated int32 w = 2;
+}
+
+message ListBoolInt64 {
+  repeated bool k = 1;
+  repeated int64 w = 2;
+}
+
+message ListBoolUint32 {
+  repeated bool k = 1;
+  repeated uint32 w = 2;
+}
+
+message ListBoolUint64 {
+  repeated bool k = 1;
+  repeated uint64 w = 2;
+}
+
+message ListBoolSint32 {
+  repeated bool k = 1;
+  repeated sint32 w = 2;
+}
+
+message ListBoolSint64 {
+  repeated bool k = 1;
+  repeated sint64 w = 2;
+}
+
+message ListBoolFixed32 {
+  repeated bool k = 1;
+  repeated fixed32 w = 2;
+}
+
+message ListBoolFixed64 {
+  repeated bool k = 1;
+  repeated fixed64 w = 2;
+}
+
+message ListBoolSfixed32 {
+  repeated bool k = 1;
+  repeated sfixed32 w = 2;
+}
+
+message ListBoolSfixed64 {
+  repeated bool k = 1;
+  repeated sfixed64 w = 2;
+}
+
+message ListBoolBool {
+  repeated bool k = 1;
+  repeated bool w = 2;
+}
+
+message ListBoolString {
+  repeated bool k = 1;
+  repeated string w = 2;
+}
+
+message ListBoolBytes {
+  repeated bool k = 1;
+  repeated bytes w = 2;
+}
+
+
+message Feature {
+  oneof kind {
+    double v_double = 1;
+    float v_float = 2;
+    int32 v_int32 = 3;
+    int64 v_int64 = 4;
+    uint32 v_uint32 = 5;
+    uint64 v_uint64 = 6;
+    sint32 v_sint32 = 7;
+    sint64 v_sint64 = 8;
+    fixed32 v_fixed32 = 9;
+    fixed64 v_fixed64 = 10;
+    sfixed32 v_sfixed32 = 11;
+    sfixed64 v_sfixed64 = 12;
+    bool v_bool = 13;
+    string v_string = 14;
+    bytes v_bytes = 15;
+    ListDouble v_list_double = 16;
+    ListFloat v_list_float = 17;
+    ListInt32 v_list_int32 = 18;
+    ListInt64 v_list_int64 = 19;
+    ListUint32 v_list_uint32 = 20;
+    ListUint64 v_list_uint64 = 21;
+    ListSint32 v_list_sint32 = 22;
+    ListSint64 v_list_sint64 = 23;
+    ListFixed32 v_list_fixed32 = 24;
+    ListFixed64 v_list_fixed64 = 25;
+    ListSfixed32 v_list_sfixed32 = 26;
+    ListSfixed64 v_list_sfixed64 = 27;
+    ListBool v_list_bool = 28;
+    ListString v_list_string = 29;
+    ListBytes v_list_bytes = 30;
+    ListStringDouble v_list_string_double = 31;
+    ListStringFloat v_list_string_float = 32;
+    ListStringInt32 v_list_string_int32 = 33;
+    ListStringInt64 v_list_string_int64 = 34;
+    ListStringUint32 v_list_string_uint32 = 35;
+    ListStringUint64 v_list_string_uint64 = 36;
+    ListStringSint32 v_list_string_sint32 = 37;
+    ListStringSint64 v_list_string_sint64 = 38;
+    ListStringFixed32 v_list_string_fixed32 = 39;
+    ListStringFixed64 v_list_string_fixed64 = 40;
+    ListStringSfixed32 v_list_string_sfixed32 = 41;
+    ListStringSfixed64 v_list_string_sfixed64 = 42;
+    ListStringBool v_list_string_bool = 43;
+    ListStringString v_list_string_string = 44;
+    ListStringBytes v_list_string_bytes = 45;
+    ListBytesDouble v_list_bytes_double = 46;
+    ListBytesFloat v_list_bytes_float = 47;
+    ListBytesInt32 v_list_bytes_int32 = 48;
+    ListBytesInt64 v_list_bytes_int64 = 49;
+    ListBytesUint32 v_list_bytes_uint32 = 50;
+    ListBytesUint64 v_list_bytes_uint64 = 51;
+    ListBytesSint32 v_list_bytes_sint32 = 52;
+    ListBytesSint64 v_list_bytes_sint64 = 53;
+    ListBytesFixed32 v_list_bytes_fixed32 = 54;
+    ListBytesFixed64 v_list_bytes_fixed64 = 55;
+    ListBytesSfixed32 v_list_bytes_sfixed32 = 56;
+    ListBytesSfixed64 v_list_bytes_sfixed64 = 57;
+    ListBytesBool v_list_bytes_bool = 58;
+    ListBytesString v_list_bytes_string = 59;
+    ListBytesBytes v_list_bytes_bytes = 60;
+    ListInt32Double v_list_int32_double = 61;
+    ListInt32Float v_list_int32_float = 62;
+    ListInt32Int32 v_list_int32_int32 = 63;
+    ListInt32Int64 v_list_int32_int64 = 64;
+    ListInt32Uint32 v_list_int32_uint32 = 65;
+    ListInt32Uint64 v_list_int32_uint64 = 66;
+    ListInt32Sint32 v_list_int32_sint32 = 67;
+    ListInt32Sint64 v_list_int32_sint64 = 68;
+    ListInt32Fixed32 v_list_int32_fixed32 = 69;
+    ListInt32Fixed64 v_list_int32_fixed64 = 70;
+    ListInt32Sfixed32 v_list_int32_sfixed32 = 71;
+    ListInt32Sfixed64 v_list_int32_sfixed64 = 72;
+    ListInt32Bool v_list_int32_bool = 73;
+    ListInt32String v_list_int32_string = 74;
+    ListInt32Bytes v_list_int32_bytes = 75;
+    ListInt64Double v_list_int64_double = 76;
+    ListInt64Float v_list_int64_float = 77;
+    ListInt64Int32 v_list_int64_int32 = 78;
+    ListInt64Int64 v_list_int64_int64 = 79;
+    ListInt64Uint32 v_list_int64_uint32 = 80;
+    ListInt64Uint64 v_list_int64_uint64 = 81;
+    ListInt64Sint32 v_list_int64_sint32 = 82;
+    ListInt64Sint64 v_list_int64_sint64 = 83;
+    ListInt64Fixed32 v_list_int64_fixed32 = 84;
+    ListInt64Fixed64 v_list_int64_fixed64 = 85;
+    ListInt64Sfixed32 v_list_int64_sfixed32 = 86;
+    ListInt64Sfixed64 v_list_int64_sfixed64 = 87;
+    ListInt64Bool v_list_int64_bool = 88;
+    ListInt64String v_list_int64_string = 89;
+    ListInt64Bytes v_list_int64_bytes = 90;
+    ListUint32Double v_list_uint32_double = 91;
+    ListUint32Float v_list_uint32_float = 92;
+    ListUint32Int32 v_list_uint32_int32 = 93;
+    ListUint32Int64 v_list_uint32_int64 = 94;
+    ListUint32Uint32 v_list_uint32_uint32 = 95;
+    ListUint32Uint64 v_list_uint32_uint64 = 96;
+    ListUint32Sint32 v_list_uint32_sint32 = 97;
+    ListUint32Sint64 v_list_uint32_sint64 = 98;
+    ListUint32Fixed32 v_list_uint32_fixed32 = 99;
+    ListUint32Fixed64 v_list_uint32_fixed64 = 100;
+    ListUint32Sfixed32 v_list_uint32_sfixed32 = 101;
+    ListUint32Sfixed64 v_list_uint32_sfixed64 = 102;
+    ListUint32Bool v_list_uint32_bool = 103;
+    ListUint32String v_list_uint32_string = 104;
+    ListUint32Bytes v_list_uint32_bytes = 105;
+    ListUint64Double v_list_uint64_double = 106;
+    ListUint64Float v_list_uint64_float = 107;
+    ListUint64Int32 v_list_uint64_int32 = 108;
+    ListUint64Int64 v_list_uint64_int64 = 109;
+    ListUint64Uint32 v_list_uint64_uint32 = 110;
+    ListUint64Uint64 v_list_uint64_uint64 = 111;
+    ListUint64Sint32 v_list_uint64_sint32 = 112;
+    ListUint64Sint64 v_list_uint64_sint64 = 113;
+    ListUint64Fixed32 v_list_uint64_fixed32 = 114;
+    ListUint64Fixed64 v_list_uint64_fixed64 = 115;
+    ListUint64Sfixed32 v_list_uint64_sfixed32 = 116;
+    ListUint64Sfixed64 v_list_uint64_sfixed64 = 117;
+    ListUint64Bool v_list_uint64_bool = 118;
+    ListUint64String v_list_uint64_string = 119;
+    ListUint64Bytes v_list_uint64_bytes = 120;
+    ListSint32Double v_list_sint32_double = 121;
+    ListSint32Float v_list_sint32_float = 122;
+    ListSint32Int32 v_list_sint32_int32 = 123;
+    ListSint32Int64 v_list_sint32_int64 = 124;
+    ListSint32Uint32 v_list_sint32_uint32 = 125;
+    ListSint32Uint64 v_list_sint32_uint64 = 126;
+    ListSint32Sint32 v_list_sint32_sint32 = 127;
+    ListSint32Sint64 v_list_sint32_sint64 = 128;
+    ListSint32Fixed32 v_list_sint32_fixed32 = 129;
+    ListSint32Fixed64 v_list_sint32_fixed64 = 130;
+    ListSint32Sfixed32 v_list_sint32_sfixed32 = 131;
+    ListSint32Sfixed64 v_list_sint32_sfixed64 = 132;
+    ListSint32Bool v_list_sint32_bool = 133;
+    ListSint32String v_list_sint32_string = 134;
+    ListSint32Bytes v_list_sint32_bytes = 135;
+    ListSint64Double v_list_sint64_double = 136;
+    ListSint64Float v_list_sint64_float = 137;
+    ListSint64Int32 v_list_sint64_int32 = 138;
+    ListSint64Int64 v_list_sint64_int64 = 139;
+    ListSint64Uint32 v_list_sint64_uint32 = 140;
+    ListSint64Uint64 v_list_sint64_uint64 = 141;
+    ListSint64Sint32 v_list_sint64_sint32 = 142;
+    ListSint64Sint64 v_list_sint64_sint64 = 143;
+    ListSint64Fixed32 v_list_sint64_fixed32 = 144;
+    ListSint64Fixed64 v_list_sint64_fixed64 = 145;
+    ListSint64Sfixed32 v_list_sint64_sfixed32 = 146;
+    ListSint64Sfixed64 v_list_sint64_sfixed64 = 147;
+    ListSint64Bool v_list_sint64_bool = 148;
+    ListSint64String v_list_sint64_string = 149;
+    ListSint64Bytes v_list_sint64_bytes = 150;
+    ListFixed32Double v_list_fixed32_double = 151;
+    ListFixed32Float v_list_fixed32_float = 152;
+    ListFixed32Int32 v_list_fixed32_int32 = 153;
+    ListFixed32Int64 v_list_fixed32_int64 = 154;
+    ListFixed32Uint32 v_list_fixed32_uint32 = 155;
+    ListFixed32Uint64 v_list_fixed32_uint64 = 156;
+    ListFixed32Sint32 v_list_fixed32_sint32 = 157;
+    ListFixed32Sint64 v_list_fixed32_sint64 = 158;
+    ListFixed32Fixed32 v_list_fixed32_fixed32 = 159;
+    ListFixed32Fixed64 v_list_fixed32_fixed64 = 160;
+    ListFixed32Sfixed32 v_list_fixed32_sfixed32 = 161;
+    ListFixed32Sfixed64 v_list_fixed32_sfixed64 = 162;
+    ListFixed32Bool v_list_fixed32_bool = 163;
+    ListFixed32String v_list_fixed32_string = 164;
+    ListFixed32Bytes v_list_fixed32_bytes = 165;
+    ListFixed64Double v_list_fixed64_double = 166;
+    ListFixed64Float v_list_fixed64_float = 167;
+    ListFixed64Int32 v_list_fixed64_int32 = 168;
+    ListFixed64Int64 v_list_fixed64_int64 = 169;
+    ListFixed64Uint32 v_list_fixed64_uint32 = 170;
+    ListFixed64Uint64 v_list_fixed64_uint64 = 171;
+    ListFixed64Sint32 v_list_fixed64_sint32 = 172;
+    ListFixed64Sint64 v_list_fixed64_sint64 = 173;
+    ListFixed64Fixed32 v_list_fixed64_fixed32 = 174;
+    ListFixed64Fixed64 v_list_fixed64_fixed64 = 175;
+    ListFixed64Sfixed32 v_list_fixed64_sfixed32 = 176;
+    ListFixed64Sfixed64 v_list_fixed64_sfixed64 = 177;
+    ListFixed64Bool v_list_fixed64_bool = 178;
+    ListFixed64String v_list_fixed64_string = 179;
+    ListFixed64Bytes v_list_fixed64_bytes = 180;
+    ListSfixed32Double v_list_sfixed32_double = 181;
+    ListSfixed32Float v_list_sfixed32_float = 182;
+    ListSfixed32Int32 v_list_sfixed32_int32 = 183;
+    ListSfixed32Int64 v_list_sfixed32_int64 = 184;
+    ListSfixed32Uint32 v_list_sfixed32_uint32 = 185;
+    ListSfixed32Uint64 v_list_sfixed32_uint64 = 186;
+    ListSfixed32Sint32 v_list_sfixed32_sint32 = 187;
+    ListSfixed32Sint64 v_list_sfixed32_sint64 = 188;
+    ListSfixed32Fixed32 v_list_sfixed32_fixed32 = 189;
+    ListSfixed32Fixed64 v_list_sfixed32_fixed64 = 190;
+    ListSfixed32Sfixed32 v_list_sfixed32_sfixed32 = 191;
+    ListSfixed32Sfixed64 v_list_sfixed32_sfixed64 = 192;
+    ListSfixed32Bool v_list_sfixed32_bool = 193;
+    ListSfixed32String v_list_sfixed32_string = 194;
+    ListSfixed32Bytes v_list_sfixed32_bytes = 195;
+    ListSfixed64Double v_list_sfixed64_double = 196;
+    ListSfixed64Float v_list_sfixed64_float = 197;
+    ListSfixed64Int32 v_list_sfixed64_int32 = 198;
+    ListSfixed64Int64 v_list_sfixed64_int64 = 199;
+    ListSfixed64Uint32 v_list_sfixed64_uint32 = 200;
+    ListSfixed64Uint64 v_list_sfixed64_uint64 = 201;
+    ListSfixed64Sint32 v_list_sfixed64_sint32 = 202;
+    ListSfixed64Sint64 v_list_sfixed64_sint64 = 203;
+    ListSfixed64Fixed32 v_list_sfixed64_fixed32 = 204;
+    ListSfixed64Fixed64 v_list_sfixed64_fixed64 = 205;
+    ListSfixed64Sfixed32 v_list_sfixed64_sfixed32 = 206;
+    ListSfixed64Sfixed64 v_list_sfixed64_sfixed64 = 207;
+    ListSfixed64Bool v_list_sfixed64_bool = 208;
+    ListSfixed64String v_list_sfixed64_string = 209;
+    ListSfixed64Bytes v_list_sfixed64_bytes = 210;
+    ListDoubleDouble v_list_double_double = 211;
+    ListDoubleFloat v_list_double_float = 212;
+    ListDoubleInt32 v_list_double_int32 = 213;
+    ListDoubleInt64 v_list_double_int64 = 214;
+    ListDoubleUint32 v_list_double_uint32 = 215;
+    ListDoubleUint64 v_list_double_uint64 = 216;
+    ListDoubleSint32 v_list_double_sint32 = 217;
+    ListDoubleSint64 v_list_double_sint64 = 218;
+    ListDoubleFixed32 v_list_double_fixed32 = 219;
+    ListDoubleFixed64 v_list_double_fixed64 = 220;
+    ListDoubleSfixed32 v_list_double_sfixed32 = 221;
+    ListDoubleSfixed64 v_list_double_sfixed64 = 222;
+    ListDoubleBool v_list_double_bool = 223;
+    ListDoubleString v_list_double_string = 224;
+    ListDoubleBytes v_list_double_bytes = 225;
+    ListFloatDouble v_list_float_double = 226;
+    ListFloatFloat v_list_float_float = 227;
+    ListFloatInt32 v_list_float_int32 = 228;
+    ListFloatInt64 v_list_float_int64 = 229;
+    ListFloatUint32 v_list_float_uint32 = 230;
+    ListFloatUint64 v_list_float_uint64 = 231;
+    ListFloatSint32 v_list_float_sint32 = 232;
+    ListFloatSint64 v_list_float_sint64 = 233;
+    ListFloatFixed32 v_list_float_fixed32 = 234;
+    ListFloatFixed64 v_list_float_fixed64 = 235;
+    ListFloatSfixed32 v_list_float_sfixed32 = 236;
+    ListFloatSfixed64 v_list_float_sfixed64 = 237;
+    ListFloatBool v_list_float_bool = 238;
+    ListFloatString v_list_float_string = 239;
+    ListFloatBytes v_list_float_bytes = 240;
+    ListBoolDouble v_list_bool_double = 241;
+    ListBoolFloat v_list_bool_float = 242;
+    ListBoolInt32 v_list_bool_int32 = 243;
+    ListBoolInt64 v_list_bool_int64 = 244;
+    ListBoolUint32 v_list_bool_uint32 = 245;
+    ListBoolUint64 v_list_bool_uint64 = 246;
+    ListBoolSint32 v_list_bool_sint32 = 247;
+    ListBoolSint64 v_list_bool_sint64 = 248;
+    ListBoolFixed32 v_list_bool_fixed32 = 249;
+    ListBoolFixed64 v_list_bool_fixed64 = 250;
+    ListBoolSfixed32 v_list_bool_sfixed32 = 251;
+    ListBoolSfixed64 v_list_bool_sfixed64 = 252;
+    ListBoolBool v_list_bool_bool = 253;
+    ListBoolString v_list_bool_string = 254;
+    ListBoolBytes v_list_bool_bytes = 255;
+  }
+};
+
+message Features {
+  repeated Feature f = 1;
+};
+
+message FeaturesMap {
+  map<int32, Feature> f = 1;
+};
+
+message FeaturesList {
+  repeated FeaturesMap features = 1;
+};

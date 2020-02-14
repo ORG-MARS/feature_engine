@@ -1,0 +1,29 @@
+// File   dl_renderer.h
+// Author lidongming
+// Date   2018-09-11 00:56:52
+// Brief
+
+#ifndef FEATURE_ENGINE_RENDERER_DL_RENDERER_H_
+#define FEATURE_ENGINE_RENDERER_DL_RENDERER_H_
+
+#include <vector>
+#include "feature_engine/renderer/renderer.h"
+#include "feature_engine/proto/dl.pb.h"
+#include "feature_engine/deps/commonlib/include/status.h"
+
+namespace feature_engine {
+
+using commonlib::Status;
+
+class DLRenderer : public Renderer {
+ public:
+  Status Renderer(const std::vector<int32_t>& feature_ids,
+                  google::protobuf::Message* output);
+
+ private:
+
+};  // DLRenderer
+
+}  // namespace feature_engine
+
+#endif  // FEATURE_ENGINE_RENDERER_DL_RENDERER_H_

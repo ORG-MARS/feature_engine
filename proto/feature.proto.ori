@@ -1,0 +1,87 @@
+// file feature.proto.ori
+// author lidongming
+// date 2018-09-10 03:32
+// brief
+
+syntax = "proto3";
+option cc_enable_arenas = true;
+package feature_proto;
+
+// Containers to hold repeated fundamental values.
+message BytesList {
+  repeated bytes value = 1;
+}
+message FloatList {
+  repeated float value = 1 [packed = true];
+}
+message DoubleList {
+  repeated double value = 1 [packed = true];
+}
+message Int32List {
+  repeated int32 value = 1 [packed = true];
+}
+message Int64List {
+  repeated int64 value = 1 [packed = true];
+}
+message BoolList {
+  repeated bool value = 1 [packed = true];
+}
+message StringList {
+  repeated string value = 1;
+}
+
+message PairKeyList {
+  oneof kind {
+    BytesList bytes_list = 1;
+    FloatList float_list = 2;
+    DoubleList double_list = 3;
+    Int32List int32_list = 4;
+    Int64List int64_list = 5;
+    BoolList bool_list = 6;
+    StringList string_list = 7;
+  }
+}
+message PairValueList {
+  oneof kind {
+    BytesList bytes_list = 1;
+    FloatList float_list = 2;
+    DoubleList double_list = 3;
+    Int32List int32_list = 4;
+    Int64List int64_list = 5;
+    BoolList bool_list = 6;
+    StringList string_list = 7;
+  }
+}
+
+message PairList {
+  PairKeyList key_list = 1;
+  PairValueList value_list = 2;
+}
+
+// Containers for non-sequential data.
+message Feature {
+  // Each feature can be exactly one kind.
+  oneof kind {
+    BytesList bytes_list = 1;
+    FloatList float_list = 2;
+    DoubleList double_list = 3;
+    Int32List int32_list = 4;
+    Int64List int64_list = 5;
+    BoolList bool_list = 6;
+    StringList string_list = 7;
+    PairList pair_list = 8;
+  }
+};
+
+message Features {
+  // Map from feature id to feature.
+  map<string, Feature> features = 1;
+};
+
+message FeaturesList {
+  repeated Features value = 1;
+};
+
+message DumpFeature {
+  FeaturesList features_list = 1;
+}
